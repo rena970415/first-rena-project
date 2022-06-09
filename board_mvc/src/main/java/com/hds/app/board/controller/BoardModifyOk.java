@@ -20,7 +20,7 @@ public class BoardModifyOk implements Action {
 		req.setCharacterEncoding("UTF-8");
 		resp.setCharacterEncoding("UTF-8");
 		
-		String saveFloder = "C:\\jsp_lgi\\workspace\\board_mvc\\src\\main\\webapp\\app\\upload";
+		String saveFloder = "C:\\Users\\LG\\git\\first-rena-project\\board_mvc\\src\\main\\webapp\\app\\upload";
 		int fileSize = 5 * 1024 * 1024;
 		BoardVO board = new BoardVO();
 		BoardDAO bDao = new BoardDAO();

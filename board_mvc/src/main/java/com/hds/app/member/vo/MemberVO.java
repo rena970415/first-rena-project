@@ -1,14 +1,6 @@
 package com.hds.app.member.vo;
 
-//memberId VARCHAR2(1000) PRIMARY KEY,
-//memberPw VARCHAR2(1000),
-//memberAge NUMBER(3),
-//memberGender VARCHAR2(1000),
-//memberEmail VARCHAR2(1000),
-//memberZipcode VARCHAR2(1000),
-//memberAddress VARCHAR2(1000),
-//memberAddressDetail VARCHAR2(1000),
-//memberAddressEtc VARCHAR2(1000)
+
 
 public class MemberVO {
 	private String memberId;
@@ -20,6 +12,7 @@ public class MemberVO {
 	private String memberAddress;
 	private String memberAddressDetail;
 	private String memberAddressEts;
+				   
 	
 	public MemberVO() {;}
 

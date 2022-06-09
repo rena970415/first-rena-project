@@ -17,7 +17,7 @@
 </head>
 <body class="is-preload">
 	<!-- Page Wrapper -->
-	<div id="page-wrapper">
+	<div id="page-wrapper"> 
 	
 		<!-- Wrapper -->
 		<div class="wrapper">
@@ -128,7 +128,7 @@
 								<input type="text" name="memberAddressDetail" id="memberAddressDetail" class="postcodify_details" value="">
 								<br>
 								<p style="margin:0">참고항목</p>
-								<input type="text" name="memberAddressEtc" id="memberAddressEtc" class="postcodify_extra_info" value="">
+								<input type="text" name="memberAddressEts" id="memberAddressEts" class="postcodify_extra_info" value="">
 								<br>
 								<div class="col-12" style="margin-top:8%">
 									<ul class="actions" style="display:felx; justify-content:center;">

@@ -7,18 +7,9 @@
 		WHERE memberId = #{memberId}
 	</select>
 	
-	<insert id="join" parameterType="member">
-		INSERT INTO TBL_MEMBER
-		(
-			memberId, memberPw, memberAge, memberGender, memberEmail,
-			memberZipcode, memberAddress, memberAddressDetail, memberAddressEts
-		)
-		VALUES
-		(
-			#{memberId}, #{memberPw}, #{memberAge}, #{memberGender}, #{memberEmail},
-			#{memberZipcode}, #{memberAddress}, #{memberAddressDetail}, #{memberAddressEts}
-		)
-	</insert>
+	<insert id="join" parameterType="member"> 
+	INSERT INTO TBL_MEMBER ( memberId, memberPw, memberAge, memberGender, memberEmail, memberZipcode, memberAddress, memberAddressDetail, memberAddressEts ) 
+	VALUES ( #{memberId}, #{memberPw}, #{memberAge}, #{memberGender}, #{memberEmail}, #{memberZipcode}, #{memberAddress}, #{memberAddressDetail}, #{memberAddressEts} ) </insert>
 	
 	<select id="login" parameterType="map" resultType="_int">
 		SELECT COUNT(memberId) FROM TBL_MEMBER

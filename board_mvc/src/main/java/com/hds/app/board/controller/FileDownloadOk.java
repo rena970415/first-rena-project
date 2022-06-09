@@ -19,7 +19,7 @@ public class FileDownloadOk implements Action {
 		req.setCharacterEncoding("UTF-8");
 		resp.setCharacterEncoding("UTF-8");
 		
-		String saveFolder = "C:\\jsp_lgi\\workspace\\board_mvc\\src\\main\\webapp\\app\\upload";
+		String saveFolder = "C:\\Users\\LG\\git\\first-rena-project\\board_mvc\\src\\main\\webapp\\app\\upload";
 		String fileName = req.getParameter("fileName");
 		boolean check = true;
 		

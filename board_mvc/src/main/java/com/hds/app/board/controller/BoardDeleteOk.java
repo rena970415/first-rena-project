@@ -16,7 +16,7 @@ public class BoardDeleteOk implements Action {
 	@Override
 	public ActionForward execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		
-		String saveFolder = "C:\\jsp_lgi\\workspace\\board_mvc\\src\\main\\webapp\\app\\upload";
+		String saveFolder = "C:\\Users\\LG\\git\\first-rena-project\\board_mvc\\src\\main\\webapp\\app\\upload";
 		FilesDAO fDao = new FilesDAO();
 		BoardDAO bDao = new BoardDAO();
 		ActionForward forward = new ActionForward();
